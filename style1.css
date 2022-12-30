@@ -61,3 +61,17 @@ button{
 button:hover {
     opacity: 0.8;
 }
+@media screen and (max-width: 1200px){
+    form{
+        width: 400px;
+    }
+	input[type=text]{
+    width: 90%;
+    padding: 10px 8px;
+    margin: 12px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;   
+    border-radius: 5px;
+    }
+} 
